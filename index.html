@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="staff-listing.css">
+</head>
+
+<body>
+    <div class="staff-listing">
+        <div class="staff">
+            <div class="staff-photo">
+                <img src="${file}" alt="${alt}" />
+            </div>
+            <div class="staff-info">
+                <h4>${staffName}</h4>
+                <p class="staff-title">${staffTitle}</p>
+                <p class="staff-phone"><a href="tel:+1 ${staffPhone}">${staffPhone}</a></p>
+                <p class="staff-email"><a href="mailto:${staffEmail}">${staffEmail}</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
